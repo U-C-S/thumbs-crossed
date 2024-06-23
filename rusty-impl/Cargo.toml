@@ -3,5 +3,7 @@ name = "thumbs-crossed"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
-image = "0.25.1"
+[dependencies.image]
+version = "0.25.1"
+default-features = false
+features = ["webp", "jpeg", "png", "hdr", "gif"]
